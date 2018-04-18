@@ -9,8 +9,8 @@ const baseConf = (_path) => {
     // and add path and name to entry array
     const VENDORS_NAME = 'vendors';
     const entry = {
-        index: ['./src/lesson-13/lesson-13.js'],
-        'lesson-13': ['./src/lesson-13/lesson-13.js']
+        index: ['./src/index/index.js'],
+        'index': ['./src/index/index.js']
     };
 
     const plugins = Object.keys(entry).reduce((acc, name) => {
